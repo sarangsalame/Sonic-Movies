@@ -1,0 +1,9 @@
+.cards_Container{
+    height:auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}

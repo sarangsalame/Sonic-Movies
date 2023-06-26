@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+header{
+    background-color: #3cb043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+}
+
+.navbar{
+    /* border:1px solid green; */
+    margin: 0 20px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_menu_wrapper{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.movie_search{
+    flex-grow: 1fr;
+}
+.logo{
+  width: 100%;
+  height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo span{
+    margin-right: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    left: 20px;
+}
+.logo .logo-name{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.movie_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 35px;
+}
+.movie_search input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+.movie_search .search-btn{
+    width: 50px;
+    height: 35px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #84df8a;
+    
+}
+.movie_search .search-btn:hover{
+    background-color: rgb(156, 235, 133);
+    cursor: pointer;
+}
+@media screen and (max-width:400px) {
+    .logo .logo-name{
+        display: none;
+    }
+    .logo_menu_wrapper{
+        width: 70px;
+    }
+    .movie_search{
+        width: 200px;
+    }
+    .movie_search input{
+        width: 250px;
+    }
+    .movie_search .search-btn{
+        padding: 0 10px;
+    }
+}

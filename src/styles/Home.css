@@ -1,0 +1,25 @@
+.dropdown{
+    height:50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.dropdown *{
+    height: 30px;
+    width: 150px;
+    background: rgb(105, 217, 107);
+}
+.dropdown option:hover{
+    background-color: white;
+}
+@media screen and (max-width:400px) {
+    .filed-parent{
+        padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+}
